@@ -4,7 +4,7 @@ var API_KEY = 'AIzaSyAnwknrCaXJiXGPrFUF2Okl40hAMDJOu5c';
 var GCM_ENDPOINT = 'https://android.googleapis.com/gcm/send';
 
 var curlCommandDiv = document.querySelector('.js-curl-command');
-var isPushEnabled = false;
+var isPushEnabled = true;
 
 // This method handles the removal of subscriptionId
 // in Chrome 44 by concatenating the subscription Id
